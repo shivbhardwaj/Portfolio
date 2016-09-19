@@ -12,3 +12,10 @@ div.experience-section h3{
 div.experience-section ul{
 	padding-left: 0px;
 }
+p.project-desc{
+	font-size: small;
+	margin-bottom: 10px;
+}
+h4.project-desc{
+	margin-bottom: 10px;
+}

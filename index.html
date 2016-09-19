@@ -20,7 +20,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
     <!-- Theme CSS -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/portfolio.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -74,12 +74,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">add me</h1>
-                        <p class="intro-text">A passionate and driven Full Stack Web Developer.
-                            <br>Let's connect to turn your visions into reality.</p>
+                        <h1 class="brand-heading">developer</h1>
+                        <!-- <p class="intro-text">
+                            <div class="haha">
+                                A passionate and driven Full Stack Web Developer.
+                                <br>Let's connect to turn your visions into reality.
+                            </div>
+                        </p> -->
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
+                        </div>  
                     </div>
                 </div>
             </div>
@@ -91,8 +96,8 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h1>Meet Shivani</h1>
-                <p>I am a Full Stack Web Developer based in the San Francisco Bay Area. Experienced in three full stacks: MEAN, Python, and Ruby on Rails.</p>
-                <p>Fast learner, self-motivated, creative, adaptable.</p>
+                <p>Full Stack Web Developer based in the San Francisco Bay Area. Experienced in three full stacks: MEAN, Python, and Ruby on Rails.</p>
+                <p>Fast learner, self-motivated, passionate, creative, adaptable.</p>
                 <div class="experience-section" id="languages">
                 	<h3>Languages</h3>
                 	<ul style="list-style: none;">
@@ -135,9 +140,6 @@
                 		<li>jQuery</li>
                 	</ul>
                 </div>
-                <!-- Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-                <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p> -->
             </div>
         </div>
     </section>
@@ -149,16 +151,23 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Projects</h2>
                     <div class="projects-section">
-                    	<p>Take a look at some of the apps I've created in the past few months.</p>
-                    	<a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">GitHub URL HERE</a>
+                    	<h4 class="project-desc">Task Slaughter</h4>
+                        <p class="project-desc">Collaborated with a team of 3 developers to build a fully-functional task-managing web app. Solely responsible for implementing Twilio SMS API and OpenWeatherMap API. Assisted with database design, logic to pass information and data to front-end, as well as design and CSS. Completed project in 4 days. Task Slaughter provides the ability to keep track of to-do lists and set reminders.
+                        Won the Python Hackathon at Coding Dojo. </p>
+                        <p class="project-desc">Tech: Python, Pylot, Nginx, MySQL, Bootstrap, HTML5, CSS3</p>
+                    	<a href="https://github.com/shivbhardwaj/TaskSlaughter" class="btn btn-default btn-lg">GitHub</a>
                     </div>
                     <div class="projects-section">
-                    	<p>Take a look at some of the apps I've created in the past few months.</p>
-                    	<a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">GitHub URL HERE</a>
+                        <h4 class="project-desc">Domination</h4>
+                    	<p class="project-desc">Collaborated with a team of 4 developers to build a fully-functional exercise web app. Solely responsible for creating wireframes, database design, and logic/front-end for the workout section of the application. Assisted with implementing FlipClock API, logic to  connect to friends, and deployment. Completed project in 4 days. Domination provides full workouts based on experience level and exercise category. Timer to begin and end the workout. Ability to connect with friends and compete! </p>
+                        <p class="project-desc">Tech: JavaScript, Angular, Express, Node.js, Mongoose.js, NoSQL, Bootstrap, HTML5, CSS3</p>
+                    	<a href="https://github.com/shivbhardwaj/Domination" class="btn btn-default btn-lg">GitHub</a>
                     </div>
                     <div class="projects-section">
-                    	<p>Take a look at some of the apps I've created in the past few months.</p>
-                    	<a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">GitHub URL HERE</a>
+                        <h4 class="project-desc">Critter Sitter</h4>
+                    	<p class="project-desc">Collaborated with a team of 5 developers to create a fully-functional pet-sitting web app. Solely responsible for implementing Twilio SMS API, Ruby Geocoder Gem, logic for the sitter and pet profile creation, and RSpec testing. Assisted with database design, owner profile creation, rating and proposal logic, debugging, and deployment. Completed project in 4 days. CritterSitter connects pet owners and pet sitters in a 25-mile radius.</p>
+                        <p class="project-desc">Tech: Ruby, Rails, WebBrick, PostgreSQL, SQLite, Bootstrap, HTML5, CSS3</p>
+                    	<a href="https://github.com/shivbhardwaj/CritterSitter" class="btn btn-default btn-lg">GitHub</a>
                     </div>
                 </div>
             </div>
@@ -170,9 +179,9 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact Shivani</h2>
-                <p>Got a spot on your team? Have a suggestion for me? Feel free to email me, check out my Github, LinkedIn and get in touch!</p>
-                <!-- <p><a href="mailto:sbhardwaj192@gmail.com">sbhardwaj192@gmail.com</a>
-                </p> -->
+                <p>Got a spot on your team? Have a suggestion? Let's connect!</p>
+                <p><a href="https://drive.google.com/file/d/0B9Njawy3EEYrRU9xOG1JM0NuZWM/view?usp=sharing">Shivani's Resume</a>
+                </p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
                         <a href="mailto:sbhardwaj192@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope-square fa-fw"></i> <span class="network-name">Email</span></a>
@@ -187,9 +196,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Map Section 
-    <div id="map"></div>-->
 
     <!-- Footer -->
     <footer>
